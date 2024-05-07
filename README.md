@@ -1,0 +1,2 @@
+# dotfiles
+Archlinux, Hyprland dotfiles
