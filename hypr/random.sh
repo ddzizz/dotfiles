@@ -1,0 +1,14 @@
+#!/bin/bash
+
+random_wallpaper() {
+	wallpaper_dir="$HOME/dotfiles/wallpapers"
+
+	files=($wallpaper_dir/*)
+
+	random_file=("${files[RANDOM % ${#files[@]}]}")
+
+	echo "set wallpaper $random_file"
+	hyprctl hyprpaper wallpaper "eDP-1, $random_file"
+}
+
+random_wallpaper

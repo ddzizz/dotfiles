@@ -1,0 +1,9 @@
+/* Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com> */
+/* https://github.com/yurihikari/garuda-sway-config/blob/master/hypr/rofi/shared/fonts.rasi */
+/* Text Font */
+
+/* 
+{
+    font: "Iosevka Nerd Font 10";
+}
+*/
