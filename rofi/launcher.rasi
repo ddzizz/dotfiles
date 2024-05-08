@@ -11,6 +11,7 @@ configuration {
     display-run:                "";
     display-filebrowser:        "";
 	drun-display-format:        "{name}";
+	terminal:					"foot";
 }
 
 /*****----- Global Properties -----*****/
