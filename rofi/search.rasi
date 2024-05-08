@@ -47,7 +47,7 @@ mainbox {
     margin:                      0px;
     padding:                     30px;
     background-color:            transparent;
-    children:                    [ "inputbar" ];
+    children:                    [ "inputbar", "message", "listview", "mode-switcher" ];
 }
 
 /*****----- Inputbar -----*****/
@@ -87,7 +87,7 @@ entry {
 
 /*****----- Listview -----*****/
 listview {
-    enabled:                     true;
+    enabled:                     false;
     columns:                     2;
     lines:                       7;
     cycle:                       true;
