@@ -135,11 +135,12 @@
 		"format-icons": {
 			"default": ["󰕿", "󰖀", "󰕾"]
 		},
+		"on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
 		// "on-click": "bash ~/.scripts/volume mute",
 		// "on-scroll-up": "bash ~/.scripts/volume up",
 		// "on-scroll-down": "bash ~/.scripts/volume down",
 		// "scroll-step": 5,
-		"on-click-right": "pavucontrol"
+		"on-click-right": "pavucontrol -t 3"
   },
   "custom/randwall": {
     "format": "󰏘",
@@ -148,8 +149,10 @@
   },
   "custom/launcher": {
     "format": "󰈸",
-    "on-click": "wofi -c ~/dotfiles/wofi/config -s ~/dotfiles/wofi/menu.css",
-    "on-click-right": "wofi -c ~/dotfiles/wofi/config -s ~/dotfiles/wofi/menu.css"
+	"on-click": "rofi -show drun -theme ~/dotfiles/rofi/launcher.rasi",
+	"on-click-right": "rofi -dmenu -theme ~/dotfiles/rofi/search.rasi | xargs -I{} xdg-open https://www.duckduckgo.com/?q={}"
+    // "on-click": "wofi -c ~/dotfiles/wofi/config -s ~/dotfiles/wofi/menu.css",
+    // "on-click-right": "wofi -c ~/dotfiles/wofi/config -s ~/dotfiles/wofi/menu.css"
 ////    "on-click": "bash $HOME/.config/rofi/launcher.sh",
 //    "on-click": "wofi --show drun -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css",
 ////    "on-click-right": "bash $HOME/.config/rofi/run.sh"  
