@@ -144,8 +144,8 @@
   },
   "custom/randwall": {
     "format": "󰏘",
-	"on-click": "bash ~/dotfiles/hypr/random.sh",
-	"on-click-right": "bash ~/dotfiles/hypr/random.sh"
+	"on-click": "bash ~/dotfiles/scripts/random_paper.sh",
+	"on-click-right": "bash ~/dotfiles/scripts/random_paper.sh"
   },
   "custom/launcher": {
     "format": "󰈸",
