@@ -19,6 +19,7 @@ folders=(
   "foot"
   "rofi"
   "vis"
+  "wallock"
 )
 
 # ~/.config 目录
