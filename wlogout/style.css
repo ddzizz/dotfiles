@@ -11,8 +11,8 @@ window {
 	/* text */
     /* color:  @foreground; */
 	color: rgb(97, 66, 128);
-    /* background-color: rgba(24, 27, 32, 0.5); */
-	background-image: url("/home/ding/dotfiles/wallpapers/default.jpg");
+    background-color: rgba(24, 27, 32, 0.2);
+	/* background-image: url("/home/ding/dotfiles/wallpapers/default.jpg"); */
 	
 } 
 
@@ -30,6 +30,7 @@ button {
 }
 
 button:focus {
+	border-width: 0;
     box-shadow: none;
     background-size : 20%;
 }
