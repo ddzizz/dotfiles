@@ -8,7 +8,7 @@
     "margin-right": 0,
     "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/playerctl", "custom/playerlabel"],
     "modules-center": ["cpu", "memory", "disk"],
-    "modules-right": ["tray", "custom/randwall", "backlight", "network", "pulseaudio", "battery", "clock"],
+    "modules-right": ["tray", "custom/randwall", "backlight", "network", "pulseaudio", "battery", "clock", "custom/power"],
     // Modules configuration
 	"clock": {
 		"format": " {:%H:%M}",
@@ -16,6 +16,16 @@
         	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         	"format-alt": " {:%d/%m}"
 	},
+
+    "custom/power": {
+        "format": " {}",
+        "rotate": 0,
+        "exec": "echo ; echo  logout",
+        "on-click": "~/dotfiles/scripts/wlogout.sh",
+        "on-click-right": "~/dotfiles/scripts/wlogout.sh",
+        "interval" : 86400, // once every day
+        "tooltip": true
+    },
 	
 
 	"hyprland/workspaces": {
