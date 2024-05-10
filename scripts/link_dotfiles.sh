@@ -20,6 +20,8 @@ folders=(
   "rofi"
   "vis"
   "wallock"
+  "neofetch"
+  "wlogout"
 )
 
 # ~/.config 目录
