@@ -1,6 +1,7 @@
 #!/bin/bash
 
 random_wallpaper() {
+
 	wallpaper_dir="$HOME/dotfiles/wallpapers"
 
 	files=($wallpaper_dir/*)
