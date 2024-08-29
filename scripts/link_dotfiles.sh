@@ -22,6 +22,7 @@ folders=(
   "wallock"
   "neofetch"
   "wlogout"
+  "yazi"
 )
 
 # ~/.config 目录
